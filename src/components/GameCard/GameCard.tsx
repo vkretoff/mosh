@@ -1,6 +1,6 @@
 import { Card, CardBody, Heading, Image } from "@chakra-ui/react";
-import { Game } from "../hooks/useGames";
-import PlatformIconList from "./PlatformIconList";
+import { Game } from "../../hooks/useGames";
+import PlatformIconList from "../PlatformIconList";
 
 interface Props {
   game: Game;
